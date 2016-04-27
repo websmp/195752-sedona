@@ -21,7 +21,8 @@
                     </li>
                     <li>
                         <div class="logo">
-                            <a href="#"><img src="logo.png"></a>
+                            <a href="#"><img src="logo1.png"></a>
+                            <a href="#"><img src="logo2.png"></a>
                     </li>
                     <li>
                         <a href="#">Карта штата</a>
@@ -54,20 +55,20 @@
             <div class="real-town-img"></div>
         </div>
         <div class="super1">
-            <div class="having first">
+            <div class="having">
                 <img src="home.png">
-                <b class="have home">Жилье</b>
-                <p class="about house">Рекомендуем пожить в настоящем мотеле,все как в кино!</p>
+                <b class="bold">Жилье</b>
+                <p class="about">Рекомендуем пожить в настоящем мотеле,все как в кино!</p>
             </div>
-            <div class="having second">
+            <div class="having">
                 <img src="eat.png">
-                <b class="have food">Еда</b>
-                <p class="about foods">всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                <b class="bold">Еда</b>
+                <p class="about">всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
             </div>
-            <div class="having third">
+            <div class="having">
                 <img src="souvenir.png">
-                <b class="have souvenir">Сувениры</b>
-                <p class="about souvenirs">Не только китайского, но и местного производства!</p>
+                <b class="bold">Сувениры</b>
+                <p class="about">Не только китайского, но и местного производства!</p>
             </div>
         </div>
         <div class="hell">
@@ -79,20 +80,20 @@
             </div>
         </div>
         <div class="super2">
-            <div class="having fourth">
-                <b class="have area">Небольшая площадь</b>
+            <div class="having">
+                <b class="bold">Небольшая площадь</b>
                 <p>-№3-</p>
-                <p class="about areas">все достопримечательности находятся очень близко</p>
+                <p class="about">все достопримечательности находятся очень близко</p>
             </div>
-            <div class="having fifth">
-                <b class="have road">Красивая дорога</b>
+            <div class="having">
+                <b class="bold">Красивая дорога</b>
                 <p>-№4-</p>
-                <p class="about roads">ехать в седону из лас-вегаса совсем не скучно!</p>
+                <p class="about">ехать в седону из лас-вегаса совсем не скучно!</p>
             </div>
-            <div class="having sixth">
-                <b class="have tourist">Мало туристов</b>
+            <div class="having">
+                <b class="bold">Мало туристов</b>
                 <p>-№5-</p>
-                <p class="about tourists">большинство едет в гранд каньон и толпится там</p>
+                <p class="about">большинство едет в гранд каньон и толпится там</p>
             </div>
         </div>
     </main>
@@ -110,23 +111,21 @@
                     <label for="visit">Дата заезда:</label>
                     <input type="text" name="data1" id="visit" value="25 апреля 2014">
                     <div class="calendar"></div>
-                </form>
-                <form action="#" method="get">
                     <label for="leave">Дата выезда:</label>
                     <input type="text" name="data2" id="leave" value="4 июля 2016">
                     <div class="calendar"></div>
                     <div class="people">
                         <div class="old">
                             <label for="old">Взрослые:</label>
-                            <input type="button" name="old-people" id="old" value="-">
+                            <button name="old-people-min" type="button">-</button>
                             <input type="text" name="old-people-how-much" value="2">
-                            <input type="button" name="old-people" id="old" value="+">
+                            <button name="old-people-max" type="button">+</button>
                         </div>
                         <div class="old">
                             <label for="young">Дети:</label>
-                            <input type="button" name="young-people" id="young" value="-">
+                            <button name="young-people-min" type="button">-</button>
                             <input type="text" name="young-people-how-much" value="0">
-                            <input type="button" name="young-people" id="old" value="+">
+                            <button name="young-people-max" type="button">+</button>
                         </div>
                     </div>
                     <input type="submit" name="submit" value="Найти">
