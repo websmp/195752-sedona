@@ -1,0 +1,108 @@
+body {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: PT Sans Regular;
+}
+
+h3 {
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+    font-style: bold;
+    color: #fff;
+}
+
+.container {
+    width: 768px;
+    margin: 0 auto;
+}
+
+.center {
+    width: 676px;
+    margin: 0 auto;
+}
+
+.main-navigation {
+    float: left;
+    width: 768px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.choose {
+    background: url(/img/filter%20background.jpg)
+}
+
+.input1 {
+    float: left;
+    width: 152px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.input2 {
+    float: left;
+    width: 138px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 87px;
+}
+
+.price {
+    float: right;
+    width: 222px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.search {
+    float: left;
+    width: 152px;
+}
+
+.sort-list {
+    float: left;
+    width: 371px;
+}
+
+.arrows {
+    float: right;
+    width: 35px;
+}
+
+.hotel {
+    margin: 31px 0;
+}
+
+.hotel-image {
+    float: left;
+    width: 152px;
+}
+
+.product-text-uppercase {
+    float: left;
+    width: 371px;
+}
+
+.main-footer {
+    padding: 55px 0;
+}
+
+.footer-hashtag {
+    float: left;
+    width: 33.33%;
+}
+
+.footer-social {
+    float: left;
+    width: 33.33%;
+}
+
+.footer-copyright {
+    float: right;
+    width: 33.33%;
+}
